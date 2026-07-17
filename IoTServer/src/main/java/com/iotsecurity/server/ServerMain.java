@@ -37,6 +37,7 @@ public class ServerMain {
 
         System.out.println("\n--------------------------------");
 
+        // Giải mã AES
         String decrypted = AESUtil.decrypt(encrypted);
 
         System.out.println("AES Decrypted:");
@@ -58,5 +59,4 @@ public class ServerMain {
 
         System.out.println("\n========== KẾT THÚC ==========");
     }
-
 }
